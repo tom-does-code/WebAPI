@@ -1,0 +1,35 @@
+body{background-color: rgb(34,35,34)}
+
+#give-cat{
+    padding: .3%;
+    background-color: rgb(45,45,50);
+    color: white;
+    border: 2px solid rgb(155,100,155)
+}
+
+#give-cat-container{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#custom-api{
+    border: 2px solid yellow;
+    background-color: rgb(35,35,32);
+    box-shadow: 0 0 20px yellow;
+    color: white;
+}
+
+#custom-api-label{
+    color: white;
+    font-family: monospace;
+    font-size: 2vh;
+}
+
+#cat{
+    border-radius: 10px;
+    max-width: 22vw;
+    max-height: 53vh;
+    float: right;
+    border: 2px solid yellow;
+    box-shadow: 0 0 70px yellow;
+}
