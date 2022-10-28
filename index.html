@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebAPI</title>
     <script defer src="./index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-        <button id="give-cat">GIVE CAT</button>
-        <div id="cat-pic"></div>
+        <div id="give-cat-container">
+            <button id="give-cat">Spawn A Cat</button>
+        </div>
+
+        <input id="custom-api" placeholder="http://example.com/get"><br><br>
+        <label for="custom-api" id="custom-api-label">Custom API<br>Note - You must follow the format in /index.js</label>
+
+        <img hidden id="cat" src="#" alt="Image request failed - Possibly a custom API issue?">
 </body>
+
 </html>
